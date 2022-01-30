@@ -1,0 +1,17 @@
+.btn {
+    background: #171c20;
+    border: 1px solid #f02a089c;
+    color: rgb(245, 245, 245);
+    -webkit-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;
+    border-radius: 30px;
+    padding: 7px 40px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background: #f31404;
+    border: 1px solid #f02a089c;
+    color: rgb(245, 245, 245);
+  }

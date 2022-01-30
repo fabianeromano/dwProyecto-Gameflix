@@ -1,0 +1,23 @@
+@import "./abstracts/variables.scss";
+@import "./abstracts/mixins.scss";
+@import "./abstracts/extend";
+
+@import "./base/reset.scss";
+@import "./base/typography.scss";
+
+@import "./layout/body";
+@import "./layout/header";
+@import "./layout/footer.scss";
+@import "./layout/banner.scss";
+@import "./layout/forms.scss";
+@import "./layout/animacion";
+
+
+@import "./components/buttons.scss";
+@import "./components/carousel.scss";
+
+@import "./pages/index";
+@import "./pages/suscripciones.scss";
+@import "./pages/juegos.scss";
+@import "./pages/download.scss";
+@import "./pages/contactanos.scss";

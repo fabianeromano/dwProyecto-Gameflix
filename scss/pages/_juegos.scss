@@ -1,0 +1,23 @@
+/* PAGE - JUEGOS */
+.juegos-banner {
+    background-image: url(../multimedia/img/fortnite.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 700px;
+}
+
+/* section - catalogo */
+.catalogo__img{
+    object-fit: contain;
+}
+.color-Basic{
+    background-color: $basicColor;
+    color: white;
+}
+.color-Pro{
+    background-color: $proColor;
+    color: white;
+}
+.color-Ultra{
+    background-color: $ultraColor;
+}

@@ -1,0 +1,327 @@
+@charset "UTF-8";
+.suscripciones .pricing-table .pricing-box, .suscripciones .pricing-table .pricing-box .price {
+  -webkit-transition: all ease-out 0.2s;
+  transition: all ease-out 0.2s; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black; }
+
+/* HEADER */
+/* Navbar */
+nav div a .logo-img {
+  width: 30px;
+  height: 100%; }
+
+nav div a .logo-name {
+  color: red; }
+
+.footer-section {
+  background: #151414;
+  position: relative; }
+
+.footer-logo {
+  margin-bottom: 30px; }
+
+.footer-logo img {
+  max-width: 200px; }
+
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px; }
+
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px; }
+
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px; }
+
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%; }
+
+.facebook-bg {
+  background: #3B5998; }
+
+.twitter-bg {
+  background: #55ACEE; }
+
+.instagram-bg {
+  background: #e7a10a; }
+
+.google-bg {
+  background: #DD4B39; }
+
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative; }
+
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14; }
+
+.footer-widget ul li {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 12px; }
+
+.footer-widget ul li a:hover {
+  color: #ff5e14; }
+
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize; }
+
+.subscribe-form {
+  position: relative;
+  overflow: hidden; }
+
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff; }
+
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0; }
+
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg); }
+
+.copyright-area {
+  background: #202020;
+  padding: 25px 0; }
+
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787; }
+
+.copyright-text p a {
+  color: #ff5e14; }
+
+.animacion {
+  overflow: hidden; }
+
+.animacion-background-1 {
+  height: 160px;
+  width: 100vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url(/multimedia/img/animacion-background-1.png);
+  animation: animarBackground-1 16s infinite; }
+
+.animacion-background-2 {
+  height: 160px;
+  width: 100vw;
+  margin-bottom: 10px;
+  background-image: url(/multimedia/img/animacion-background-2.png);
+  animation: animarBackground-2 18s infinite; }
+
+.animacion-background-3 {
+  height: 160px;
+  width: 100vw;
+  margin-bottom: 10px;
+  background-image: url(/multimedia/img/animacion-background-3.png);
+  animation: animarBackground-3 20s infinite; }
+
+@keyframes animarBackground-1 {
+  0% {
+    background-position: 0px; }
+  100% {
+    background-position: -1860px; } }
+
+@keyframes animarBackground-2 {
+  0% {
+    background-position: 0px; }
+  100% {
+    background-position: -1860px; } }
+
+@keyframes animarBackground-3 {
+  0% {
+    background-position: 0px; }
+  100% {
+    background-position: -1860px; } }
+
+.btn {
+  background: #171c20;
+  border: 1px solid #f02a089c;
+  color: whitesmoke;
+  -webkit-transition: all ease-out 0.2s;
+  transition: all ease-out 0.2s;
+  border-radius: 30px;
+  padding: 7px 40px;
+  display: inline-block;
+  margin-top: 20px; }
+
+.btn:hover {
+  background: #f31404;
+  border: 1px solid #f02a089c;
+  color: whitesmoke; }
+
+/* INDEX - SECTION */
+section div div div .section_img {
+  height: 50vh; }
+
+section div div div .section_img {
+  height: 50vh; }
+
+section div div div .section_img {
+  height: 50vh; }
+
+/* PAGE - SUSCRIPCION */
+.sus-titulo {
+  background-image: url(../multimedia/img/Background-League-Of-Legends.jpg);
+  background-position: center;
+  background-size: cover; }
+
+/* suscripción - precios */
+.suscripciones .pricing-table {
+  border-radius: 3px;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  text-align: center; }
+  .suscripciones .pricing-table .pricing-box {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.13);
+    border: 2px solid rgba(10, 123, 183, 0.14);
+    background-color: #ebb2bd; }
+    .suscripciones .pricing-table .pricing-box h2 {
+      font-size: 1.5em;
+      padding: 35px 10px;
+      margin: 0; }
+    .suscripciones .pricing-table .pricing-box .price {
+      background: #c2b722;
+      color: #fff;
+      font-size: 2em;
+      font-weight: 600;
+      position: relative;
+      padding: 20px 10px;
+      display: block; }
+    .suscripciones .pricing-table .pricing-box .description {
+      margin-top: 20px;
+      font-size: 0.85em;
+      padding: 0 40px;
+      font-style: italic; }
+    .suscripciones .pricing-table .pricing-box .pricing-table-divider {
+      display: block;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.08);
+      max-width: 80%;
+      margin: 20px auto 0; }
+    .suscripciones .pricing-table .pricing-box ul {
+      color: #000;
+      padding: 15px 60px;
+      text-align: left; }
+      .suscripciones .pricing-table .pricing-box ul li {
+        padding: 3px 0;
+        font-size: 0.95em; }
+    .suscripciones .pricing-table .pricing-box .pro {
+      background: #c92121; }
+    .suscripciones .pricing-table .pricing-box .ultra {
+      background: #b41fa0; }
+  .suscripciones .pricing-table .pricing-box:hover {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01); }
+
+@media (max-width: 768px) {
+  .suscripciones .pricing-table {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr); } }
+
+/* PAGE - JUEGOS */
+.juegos-banner {
+  background-image: url(../multimedia/img/fortnite.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 700px; }
+
+/* section - catalogo */
+.catalogo__img {
+  object-fit: contain; }
+
+.color-Basic {
+  background-color: #c2b722;
+  color: white; }
+
+.color-Pro {
+  background-color: #c92121;
+  color: white; }
+
+.color-Ultra {
+  background-color: #b41fa0; }
+
+@media (max-width: 768px) {
+  .download {
+    display: flex;
+    flex-direction: column; }
+    .download .download__android {
+      margin: 10px; }
+    .download .download__all {
+      margin: 10px; } }
+
+@media (max-width: 576px) {
+  .download {
+    display: flex;
+    flex-direction: column; }
+    .download .download__android {
+      margin: 10px; }
+    .download .download__all {
+      margin: 10px; } }
+
+/* PAGE - FORMULARIO */
+.formulario {
+  color: white;
+  background-image: url(../multimedia/img/contacto_background.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.formulario__container {
+  width: 50vw;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+@media (max-width: 768px) {
+  section .formulario__container {
+    width: 90vw; } }
+
+@media (max-width: 576px) {
+  section .formulario__container {
+    width: 100vw; } }

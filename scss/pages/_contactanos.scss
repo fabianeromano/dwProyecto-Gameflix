@@ -1,0 +1,29 @@
+/* PAGE - FORMULARIO */
+.formulario {
+    color: white;
+    background-image: url(../multimedia/img/contacto_background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.formulario__container {
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 768px) {
+    section {
+        .formulario__container {
+            width: 90vw;
+        }
+    }
+
+}
+@media (max-width: 576px) {
+    section {
+        .formulario__container {
+            width: 100vw;
+        }
+    }
+
+}

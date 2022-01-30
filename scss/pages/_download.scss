@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .download {
+        display: flex;
+        flex-direction: column;
+
+        .download__android {
+            margin: 10px;
+        }
+
+        .download__all {
+            margin: 10px;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .download {
+        display: flex;
+        flex-direction: column;
+
+        .download__android {
+            margin: 10px;
+        }
+
+        .download__all {
+            margin: 10px;
+        }
+    }
+}
