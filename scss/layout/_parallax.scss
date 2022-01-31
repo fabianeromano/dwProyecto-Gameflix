@@ -1,0 +1,21 @@
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height:30rem;
+	max-width: 100vw;
+	position: relative;
+    overflow: hidden;
+}
+
+.texto-interior{
+	color:#fff;
+	position: absolute;
+	text-align: center;
+	top:40%;
+}
+	
+.img-uno{background-image: url(/multimedia/img/img1.jpg)}
+.img-dos{background-image: url(/multimedia/img/img2.jpg)}
+
