@@ -1,34 +1,53 @@
 /* INDEX - SECTION */
-section{
-    div{
-        div{
-            div{
-                .section_img{
-                        height: 50vh;
-                }
+// SECTION - 1
+.section-1 {
+    div {
+        .index-Texto-1{
+	    position: absolute;
+	        top:40%;
+            text-align: center;
+            .index-Title-1 {
+                color: $colorTitle;        
             }
         }
     }
     div{
-        div{
-            div{
-                .section_img{
-                        height: 50vh;
-                }
-            }
+        padding-top: 5px;
+        padding-bottom: 5px;
+        h2{
+            text-align: center;
+            padding-top: 3px;
+            padding-bottom: 3px;
         }
-    }
-    div{
-        div{
-            div{
-                .section_img{
-                        height: 50vh;
-                }
-            }
+        p{
+            text-align: center;
+
         }
     }
 }
-.index-Title{
-    color: $colorTitle;
-    text-align: center;
+// SECTION - 2
+.section-2{
+    article{
+        .section-2__description{
+            font-size: 20px;
+        }
+    }
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .section-2__icon{
+                font-size: 70px;
+            }
+            .section-2__name{
+                font-size: 30px;
+            }
+        }
+    }
 }

@@ -14,12 +14,9 @@ body {
 
 /* HEADER */
 /* Navbar */
-nav div a .logo-img {
-  width: 30px;
-  height: 100%; }
-
-nav div a .logo-name {
-  color: red; }
+nav div a img {
+  height: auto;
+  width: 50%; }
 
 .parallax {
   background-attachment: fixed;
@@ -31,17 +28,17 @@ nav div a .logo-name {
   position: relative;
   overflow: hidden; }
 
-.texto-interior {
+.index-Texto-1 {
   color: #fff;
   position: absolute;
   text-align: center;
   top: 40%; }
 
 .img-uno {
-  background-image: url(/multimedia/img/img1.jpg); }
+  background-image: url(/multimedia/img/juegosEnCirculo.jpg); }
 
 .img-dos {
-  background-image: url(/multimedia/img/img2.jpg); }
+  background-image: url(/multimedia/img/juegosEnCirculo.jpg); }
 
 .footer-section {
   background: #151414;
@@ -105,7 +102,7 @@ nav div a .logo-name {
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: #ff5e14; }
+  background: #DB202C; }
 
 .footer-widget ul li {
   display: inline-block;
@@ -113,7 +110,7 @@ nav div a .logo-name {
   margin-bottom: 12px; }
 
 .footer-widget ul li a:hover {
-  color: #ff5e14; }
+  color: #DB202C; }
 
 .footer-widget ul li a {
   color: #878787;
@@ -133,9 +130,9 @@ nav div a .logo-name {
 .subscribe-form button {
   position: absolute;
   right: 0;
-  background: #ff5e14;
+  background: #DB202C;
   padding: 13px 20px;
-  border: 1px solid #ff5e14;
+  border: 1px solid #DB202C;
   top: 0; }
 
 .subscribe-form button i {
@@ -153,7 +150,7 @@ nav div a .logo-name {
   color: #878787; }
 
 .copyright-text p a {
-  color: #ff5e14; }
+  color: #DB202C; }
 
 .animacion {
   overflow: hidden; }
@@ -215,18 +212,39 @@ nav div a .logo-name {
   color: whitesmoke; }
 
 /* INDEX - SECTION */
-section div div div .section_img {
-  height: 50vh; }
-
-section div div div .section_img {
-  height: 50vh; }
-
-section div div div .section_img {
-  height: 50vh; }
-
-.index-Title {
-  color: #FF5E14;
+.section-1 div .index-Texto-1 {
+  position: absolute;
+  top: 40%;
   text-align: center; }
+  .section-1 div .index-Texto-1 .index-Title-1 {
+    color: #0D6EFD; }
+
+.section-1 div {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+  .section-1 div h2 {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px; }
+  .section-1 div p {
+    text-align: center; }
+
+.section-2 article .section-2__description {
+  font-size: 20px; }
+
+.section-2 div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end; }
+  .section-2 div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .section-2 div div .section-2__icon {
+      font-size: 70px; }
+    .section-2 div div .section-2__name {
+      font-size: 30px; }
 
 /* PAGE - SUSCRIPCION */
 .sus-titulo {

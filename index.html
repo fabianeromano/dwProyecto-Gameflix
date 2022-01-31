@@ -8,9 +8,6 @@
 	<!-- LINK BOOTSTRAP -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<!-- FONTAWESOME -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-		integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 	<!-- ANIMATED -->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<!-- GOOGLE FONTS -->
@@ -26,45 +23,38 @@
 <body>
 	<!-- HEADER -->
 	<!-- NAVBAR -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<div class="container-fluid">
-				<a class="navbar-brand fs-4 " href="#"><span class="iconify logo-img"
-					data-icon="noto:video-game"></span>GAME<span class="logo-name">FLIX</span> </a>
-			
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-				aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="./suscripciones.html">Suscripción</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="./juegos.html">Juegos</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="./download.html">Download</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="./contactanos.html">Contactanos</a>
-					</li>
-				</ul>
-			</div>
+	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid nav-bar">
+		  <a class="navbar-brand" href="#"><img src="./multimedia/img/gf.png" alt="Logo Gameflix"></a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			  </li>
+			  
+			  <li class="nav-item">
+				<a class="nav-link disabled">Disabled</a>
+			  </li>
+			</ul>
+		  </div>
 		</div>
-	</nav>
+	  </nav>
+	
 	<!-- HEADER -->
 	<!-- CONTENIDO -->
 	<main class="main">
 		<!-- PARALLAX -->
-		<section>
+		<!-- SECTION - 1 -->
+		<section class="section-1">
 			<div class="parallax img-uno">
-				<div class="texto-interior">
-					<h1 class="index-Title">El servicio de juegos en la nube donde podras jugar todos tus juegos favoritos en los
+				<div class="index-Texto-1">
+					<h1 class="index-Title-1">El servicio de juegos en la nube donde podras jugar todos tus juegos favoritos en los
 						dispositivos que ya tienes.</h1>
 				</div>
 			</div>
@@ -81,40 +71,38 @@
 				<!-- section animacion-->
 			</div>
 		</section>
-
-		<section>
-			<div class="parallax img-dos">
-				<div class="texto-interior">
-					<h2 class="index-Title">Juega en HD en la mas alta resolución</h2>
-				</div>
-			</div>
-			<div>
-				<div class="text-center">
-					<h2 class="color-white">COMPATIBLE CON TODOS TUS
+		<!-- SECTION - 2 -->
+		<section class="section-2">
+				<article class="text-center">
+					<h2 class="section-2__title">COMPATIBLE CON TODOS TUS
 						DISPOSITIVOS</h2>
-					<div class="description color-white  body-text">
+					<div class="section-2__description">
 						<p>Suscribete a gameflix y disfruta de los juegos más exigentes y sin problemas en cualquiera de
 							tus
 							dispositivos</p>
 					</div>
 					<button>Suscribete</button>
-				</div>
+				</article>
 				<div>
 					<div>
-						<i class="fa-brands fa-windows"></i>
-						<p>windows</p>
+						<span class="iconify section-2__icon" data-icon="fa-solid:tv"></span>
+						<p class="section-2__name">Smart Tv</p>
 					</div>
 					<div>
-						<i class="fa-brands fa-apple"></i>
-						<p>Apple</p>
+						<span class="iconify section-2__icon" data-icon="entypo:laptop"></span>
+						<p class="section-2__name">Notebook</p>
 					</div>
 					<div>
-						<i class="fa-brands fa-android"></i>
-						<p>Android</p>
+						<span class="iconify section-2__icon" data-icon="entypo:tablet"></span>
+						<p class="section-2__name">Tablets</p>
 					</div>
 					<div>
-						<i class="fa-brands fa-windows"></i>
-						<p>windows</p>
+						<span class="iconify section-2__icon" data-icon="jam:android-square"></span>
+						<p class="section-2__name">Android</p>
+					</div>
+					<div> 
+						<span class="iconify section-2__icon" data-icon="wpf:iphone"></span>
+						<p class="section-2__name">Iphone</p>
 					</div>
 
 				</div>
@@ -134,8 +122,7 @@
 					<div class="col-xl-4 col-lg-4 mb-50">
 						<div class="footer-widget">
 							<div class="footer-logo">
-								<a class="navbar-brand " href="index.html"><span class="iconify logo-img"
-										data-icon="noto:video-game"></span>GAME<span class="logo-name">FLIX</span> </a>
+								<a class="navbar-brand " href="index.html"><img src="./multimedia/img/gf.png" alt=""> </a>
 							</div>
 							<div class="footer-text">
 								<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor
@@ -143,7 +130,7 @@
 									elit,Lorem ipsum dolor sit amet.</p>
 							</div>
 							<div class="footer-social-icon">
-								<span>Follow us</span>
+								<span>Nuestras Redes</span>
 								<a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
 								<a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
 								<a href="#"><i class="fab fa-instagram instagram-bg"></i></a>
@@ -202,8 +189,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
 	</script>
-	<!-- ICONIFY -->
-	<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+	<!-- ICONOFY -->
+	<script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 	<!-- ANIMATED-JS -->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>

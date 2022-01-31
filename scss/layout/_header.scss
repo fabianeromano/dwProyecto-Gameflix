@@ -1,15 +1,11 @@
 /* HEADER */
 /* Navbar */
-nav {
-    div {
-        a {
-            .logo-img {
-                width: 30px;
-                height: 100%;
-            }
-
-            .logo-name {
-                color: red;
+nav{
+    div{
+        a{
+            img{
+                height: auto;
+                width: 50%;
             }
         }
     }
