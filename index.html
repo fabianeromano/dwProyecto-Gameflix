@@ -34,14 +34,19 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">Home</a>
+						<a class="nav-link active" aria-current="page" href="./index.html">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
+						<a class="nav-link" href="./juegos.html">Juegos</a>
 					</li>
-
 					<li class="nav-item">
-						<a class="nav-link disabled">Disabled</a>
+						<a class="nav-link" href="./download.html">Download</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#pre">Precios</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#cont">Contactanos</a>
 					</li>
 				</ul>
 			</div>
@@ -84,7 +89,6 @@
 						tus
 						dispositivos</p>
 				</div>
-				<button>Suscribete</button>
 			</article>
 			<div>
 				<div>
@@ -112,12 +116,12 @@
 			</div>
 		</section>
 		<!-- SUSCRIPCION -->
-		<section class="suscripcion">
+		<section class="suscripcion" id="pre">
 			<h2 class="text-center">suscripciones</h2>
 			<div class="container-fluid">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-4">
+						<div class="col-lg-4 sus-table">
 							<div class="price-table">
 								<div class="price-head">
 									<h4>Basic</h4>
@@ -136,7 +140,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
+						<div class="col-lg-4 sus-table">
 							<div class="price-table">
 								<div class="price-head">
 									<h4>Pro</h4>
@@ -155,7 +159,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
+						<div class="col-lg-4 sus-table">
 							<div class="price-table">
 								<div class="price-head">
 									<h4>Ultra</h4>
@@ -180,7 +184,7 @@
 		</section>
 		<!-- SUSCRIPCION -->
 		<!-- FAQ -->
-		<section class="container-fluid py-3">
+		<section class="container-fluid py-3" id="faq">
 			<div class="row">
 				<h2 class="col-12 text-center">Preguntas Frecuentes</h2>
 			</div>
@@ -243,48 +247,21 @@
 		</section>
 		<!-- FAQ -->
 		<!-- FORMULARIO -->
-		<section class="contacto">
-			<div class="contacto__content">
-				<h2>Contactanos</h2>
-				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, incidunt!
-				</p>
-			</div>
-			<div class="contacto__container">
-				<div class="contactoInfo">
-					<div class="contactoInfo__box">
-						<div class="icon">icono</div>
-						<div class="text">
-							<h3>Adress</h3>
-							<p>Lorem ipsum dolor sit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="contactoForm">
+		<section class="form-container" id="cont">
+			<div class="form-box">
+				<div class="left"></div>
+				<div class="right">
+					<h2 class="right__title">Contactanos</h2>
 					<form action="#" method="get">
-						<h2>Enviar Mensaje</h2>
-						<div class="inputBox">
-							<input type="text" name="" required="required">
-							<span>Nombre Completo</span>
-						</div>
-						<div class="inputBox">
-							<input type="tel" name="" required="required">
-							<span>Celular</span>
-						</div>
-						<div class="inputBox">
-							<input type="email" name="" required="required">
-							<span>Email</span>
-						</div>
-						<div class="inputBox">
-							<textarea name="" id="" cols="30" rows="3" required="required"></textarea>
-							<span>Escribe tu mensaje...</span>
-						</div>
-						<div class="inputBox">
-							<input type="submit" name="" value="Enviar">
-						</div>
-					</form>
+					<input type="text" name="Nombre" class="field" placeholder="Nombre Completo">
+					<input type="email" name="Email" class="field" placeholder="Email">
+					<input type="tel" name="Celular" class="field" placeholder="Celular">
+					<textarea class="field area" name="Mensaje" id="" cols="30" rows="4" placeholder="Escribe tu mensaje"></textarea>
+						<button class="form-btn">Enviar</button>
+				</form>
 				</div>
 			</div>
+
 		</section>
 		<!-- FORMULARIO -->
 
@@ -319,21 +296,22 @@
 					<div class="col-xl-4 col-lg-4 col-md-6 mb-30">
 						<div class="footer-widget">
 							<div class="footer-widget-heading">
-								<h3>Links</h3>
+								<h3>Secciones</h3>
 							</div>
 							<ul>
 								<li><a href="index.html" class="text-decoration-none">Home</a></li>
-								<li><a href="./suscripciones.html" class="text-decoration-none">suscripción</a></li>
 								<li><a href="./juegos.html" class="text-decoration-none">Juegos</a></li>
 								<li><a href="./download.html" class="text-decoration-none">Download</a></li>
-								<li><a href="./contactanos.html" class="text-decoration-none">Contactanos</a></li>
+								<li><a href="#pre" class="text-decoration-none">Precios</a></li>
+								<li><a href="#faq" class="text-decoration-none">Preguntas Frecuentes</a></li>
+								<li><a href="#cont" class="text-decoration-none">Contactanos</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-xl-4 col-lg-4 col-md-6 mb-50">
 						<div class="footer-widget">
 							<div class="footer-widget-heading">
-								<h3>Subscribete</h3>
+								<h3>Newsletter</h3>
 							</div>
 							<div class="footer-text mb-25">
 								<p>Suscribete para recibir toda la informacion de nuestro servicio</p>

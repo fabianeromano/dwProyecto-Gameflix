@@ -8,17 +8,15 @@
 @import "./layout/body";
 @import "./layout/header";
 @import "./layout/parallax";
+@import "./layout/animacion";
+@import "./layout/priceTable";
+@import "./layout/forms.scss";
 @import "./layout/footer.scss";
 @import "./layout/banner.scss";
-@import "./layout/forms.scss";
-@import "./layout/animacion";
-
 
 @import "./components/buttons.scss";
 @import "./components/carousel.scss";
 
 @import "./pages/index";
-@import "./pages/suscripciones.scss";
 @import "./pages/juegos.scss";
 @import "./pages/download.scss";
-@import "./pages/contactanos.scss";

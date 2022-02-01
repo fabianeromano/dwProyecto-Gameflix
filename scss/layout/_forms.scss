@@ -1,150 +1,99 @@
-.contacto {
+.form-container{
     position: relative;
-    min-height: 100vh;
-    padding: 50px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background: url(/multimedia/img/Background-League-Of-Legends.jpg);
-    background-size: cover;
-}
-
-.contacto .contacto__content {
-    max-width: 800px;
-    text-align: center;
-}
-
-.contacto .contacto__content h2 {
-    font-size: 36px;
-    font-weight: 500;
-    color: #fff;
-}
-
-.contacto .contacto__content p {
-    font-weight: 300;
-    color: #fff;
-}
-
-.contacto__container {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+    height: 100%;
+    padding: 20px 100px;
 }
-
-.contacto__container .contactoInfo {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-.contacto__container .contactoInfo .contactoInfo__box {
-    position: relative;
-    padding: 20px 0;
-    display: flex;
-}
-
-.contacto__container .contactoInfo .contactoInfo__box .icon {
-    min-width: 60px;
-    height: 60px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    border-radius: 50%;
-    font-size: 22px;
-}
-
-.contacto__container .contactoInfo .contactoInfo__box .text {
-    display: flex;
-    margin-left: 20px;
-    font-size: 16px;
-    color: #fff;
-    flex-direction: column;
-    font-weight: 300;
-}
-
-.contacto__container .contactoInfo .contactoInfo__box .text h3 {
-    font-weight: 500;
-    color: #00bcd4;
-}
-
-.contactoForm {
-    width: 50%;
-    padding: 40px;
-    background: #fff;
-}
-
-.contactoForm h2 {
-    font-size: 30px;
-    color: #333;
-    font-weight: 500;
-}
-
-.contactoForm .inputBox {
-    position: relative;
-    width: 100%;
-    margin-top: 10px;
-}
-
-.contactoForm .inputBox input,
-.contactoForm .inputBox textarea {
-    width: 100%;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px 0;
-    border: none;
-    border-bottom: 2px solid #333;
-    outline: none;
-    resize: none;
-}
-
-.contactoForm .inputBox span {
+.form-container:after{
+    content: "";
     position: absolute;
     left: 0;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px 0;
-    pointer-events: none;
-    transition: 0.5s;
-    color: #666;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/multimedia/img/backgroundJuegosFlotando.webp) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(5px);
 }
-
-.contactoForm .inputBox input:focus~span,
-.contactoForm .inputBox input:valid~span,
-.contactoForm .inputBox textarea:focus~span,
-.contactoForm .inputBox textarea:valid~span {
-    color: #e91e63;
-    font-size: 12px;
-    transform: translateY(-20px);
+.form-box{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
 }
-
-.contactoForm .inputBox input[type="submit"] {
-    width: 100px;
-    background: #00bcd4;
-    color: #fff;
-    border: none;
+.left{
+    height: 100%;
+    background: url(/multimedia/img/backgroundJuegosFlotando.webp) no-repeat center;
+    background-size: cover;
+}
+.right{
+    padding: 25px 40px;
+}
+.right__title{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.right__title:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #DB202C;
+}
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+.field:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(250, 30, 30, 0.47);
+}
+.area{
+    min-height: 150px;
+}
+.form-btn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #DB202C;
     cursor: pointer;
-    padding: 10px;
-    font-size: 18px;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: .3s;
 }
-
-@media (max-width: 768px) {
-    .contacto {
-        padding: 0%;
-        .contacto__container {
-            flex-direction: column;
-
-            .contactoInfo {
-                margin-bottom: 40px;
-                width: 100%;
-            }
-
-            .contactoForm {
-                width: 100%;
+.form-btn:hover{
+    background-color: #af1a24;
+}
+@media (max-width: 768px){
+    .form-container{
+        .form-box{
+            grid-template-columns: 1fr;
+            .left{
+                height: 200px;
             }
         }
     }
-
 }
