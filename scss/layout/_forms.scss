@@ -1,0 +1,150 @@
+.contacto {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(/multimedia/img/Background-League-Of-Legends.jpg);
+    background-size: cover;
+}
+
+.contacto .contacto__content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.contacto .contacto__content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contacto .contacto__content p {
+    font-weight: 300;
+    color: #fff;
+}
+
+.contacto__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contacto__container .contactoInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__container .contactoInfo .contactoInfo__box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contacto__container .contactoInfo .contactoInfo__box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.contacto__container .contactoInfo .contactoInfo__box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contacto__container .contactoInfo .contactoInfo__box .text h3 {
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contactoForm {
+    width: 50%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contactoForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactoForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactoForm .inputBox input,
+.contactoForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactoForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactoForm .inputBox input:focus~span,
+.contactoForm .inputBox input:valid~span,
+.contactoForm .inputBox textarea:focus~span,
+.contactoForm .inputBox textarea:valid~span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactoForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .contacto {
+        padding: 0%;
+        .contacto__container {
+            flex-direction: column;
+
+            .contactoInfo {
+                margin-bottom: 40px;
+                width: 100%;
+            }
+
+            .contactoForm {
+                width: 100%;
+            }
+        }
+    }
+
+}
