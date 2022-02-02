@@ -173,7 +173,7 @@ nav div a img {
   top: 0;
   height: 100%;
   width: 100%;
-  background: url(/multimedia/img/backgroundJuegosFlotando.webp) no-repeat center;
+  background: url(/multimedia/img/backgroundJuegosFlotando.jpg) no-repeat center;
   background-size: cover;
   z-index: -1;
   filter: blur(5px); }
@@ -190,7 +190,7 @@ nav div a img {
 
 .left {
   height: 100%;
-  background: url(/multimedia/img/backgroundJuegosFlotando.webp) no-repeat center;
+  background: url(/multimedia/img/backgroundJuegosFlotando.jpg) no-repeat center;
   background-size: cover; }
 
 .right {
