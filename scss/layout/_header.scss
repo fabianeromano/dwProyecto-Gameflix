@@ -4,9 +4,10 @@ nav{
     div{
         a{
             img{
-                height: auto;
-                width: 50%;
+                @include sizes(auto, 50%);
             }
         }
     }
 }
+/* Navbar */
+/* HEADER */

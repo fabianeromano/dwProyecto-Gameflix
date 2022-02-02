@@ -1,3 +1,21 @@
+.plan-basic {
+  background: linear-gradient(45deg, #275ae5, #1d12b3);
+  padding: 50px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%; }
+
+.plan-pro {
+  background: linear-gradient(45deg, #e52d27, #b31217);
+  padding: 50px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%; }
+
+.plan-ultra {
+  background: linear-gradient(45deg, #d527e5, #a50770);
+  padding: 50px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%; }
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +31,8 @@ nav div a img {
   height: auto;
   width: 50%; }
 
+/* Navbar */
+/* HEADER */
 .parallax {
   background-attachment: fixed;
   background-position: center;
@@ -92,12 +112,6 @@ nav div a img {
 .sus-table:hover {
   transform: scale(1.03); }
 
-.price-table .price-head {
-  padding: 50px;
-  background: linear-gradient(45deg, #e52d27, #b31217);
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%; }
-
 .price-table .price-head h4 {
   text-transform: uppercase;
   margin: 0;
@@ -151,8 +165,8 @@ nav div a img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 100%;
+  width: 100%;
   padding: 20px 100px; }
 
 .form-container:after {
@@ -160,8 +174,8 @@ nav div a img {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
   height: 100%;
+  width: 100%;
   background: url(/multimedia/img/backgroundJuegosFlotando.webp) no-repeat center;
   background-size: cover;
   z-index: -1;
@@ -415,16 +429,17 @@ nav div a img {
 .catalogo__img {
   object-fit: contain; }
 
-.color-Basic {
-  background-color: #c2b722;
+.colorBasic {
+  background-color: #1a45cf;
   color: white; }
 
-.color-Pro {
+.colorPro {
   background-color: #c92121;
   color: white; }
 
-.color-Ultra {
-  background-color: #b41fa0; }
+.colorUltra {
+  background-color: #b41fa0;
+  color: white; }
 
 @media (max-width: 768px) {
   .download {

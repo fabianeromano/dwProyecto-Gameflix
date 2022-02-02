@@ -10,14 +10,15 @@
 .catalogo__img{
     object-fit: contain;
 }
-.color-Basic{
+.colorBasic{
     background-color: $basicColor;
     color: white;
 }
-.color-Pro{
+.colorPro{
     background-color: $proColor;
     color: white;
 }
-.color-Ultra{
+.colorUltra{
     background-color: $ultraColor;
+    color: white;
 }

@@ -3,8 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    @include sizes(100%, 100%);
     padding: 20px 100px;
 }
 .form-container:after{
@@ -12,8 +11,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    @include sizes(100%, 100%);
     background: url(/multimedia/img/backgroundJuegosFlotando.webp) no-repeat center;
     background-size: cover;
     z-index: -1;

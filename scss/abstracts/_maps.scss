@@ -1,0 +1,16 @@
+// MAP + EACH
+// Index - Plan
+$colorPlan-head:(plan-basic: linear-gradient(45deg, #275ae5, #1d12b3),
+    plan-pro: linear-gradient(45deg, #e52d27, #b31217),
+    plan-ultra: linear-gradient(45deg, #d527e5, #a50770),
+);
+
+@each $plan,
+$color in $colorPlan-head {
+    .#{$plan} {
+        background: $color;
+        padding: 50px;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+}
