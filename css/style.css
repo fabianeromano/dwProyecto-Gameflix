@@ -421,16 +421,7 @@ nav div a img {
   transform: scale(1.03); }
 
 /* PAGE - JUEGOS */
-.juegos-banner {
-  background-image: url(../multimedia/img/fortnite.jpg);
-  background-size: cover;
-  background-position: top;
-  height: 700px; }
-
 /* section - catalogo */
-.catalogo__img {
-  object-fit: contain; }
-
 .colorBasic {
   background-color: #1a45cf;
   color: white; }
