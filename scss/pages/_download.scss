@@ -1,3 +1,10 @@
+.download{
+    background-color: #FFFFFF;
+    h1{
+        @extend %estilosTitulos;
+    }
+}
+
 @media (max-width: 768px) {
     .download {
         display: flex;

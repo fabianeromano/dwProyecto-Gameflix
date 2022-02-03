@@ -50,3 +50,16 @@
     color: #DB202C;
     transform: scale(1.03);
 }
+
+.suscripcion{
+    h2{
+        @extend %estilosTitulos;
+    }
+}
+.preguntas{
+    div{
+        h2{
+            @extend %estilosTitulos;
+        }
+    }
+}

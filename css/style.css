@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-.section-1 div h2, .section-2 article .section-2__title {
+.section-1 div h2, .section-2 article .section-2__title, .suscripcion h2, .preguntas div h2, .download h1 {
   font-size: 2rem;
   font-weight: 700;
   text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.2); }
@@ -442,6 +442,9 @@ nav div a img {
 .colorUltra {
   background-color: #b41fa0;
   color: white; }
+
+.download {
+  background-color: #FFFFFF; }
 
 @media (max-width: 768px) {
   .download {
