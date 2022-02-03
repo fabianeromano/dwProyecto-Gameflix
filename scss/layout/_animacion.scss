@@ -1,49 +1,62 @@
-.animacion{
-    overflow: hidden;
+.section-1 {
+    div {
+        .animacion {
+            overflow: hidden;
+
+            .animacion-background-1 {
+                height: 160px;
+                width: 100vw;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                background-image: url(../multimedia/img/animacion-background-1.png);
+                animation: animarBackground-1 16s infinite;
+            }
+
+            .animacion-background-2 {
+                height: 160px;
+                width: 100vw;
+                margin-bottom: 10px;
+                background-image: url(../multimedia/img/animacion-background-2.png);
+                animation: animarBackground-2 18s infinite;
+            }
+
+            .animacion-background-3 {
+                height: 160px;
+                width: 100vw;
+                margin-bottom: 10px;
+                background-image: url(../multimedia/img/animacion-background-3.png);
+                animation: animarBackground-3 20s infinite;
+            }
+        }
+    }
 }
-.animacion-background-1{
-    height: 160px;
-    width: 100vw;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-image: url(../multimedia/img/animacion-background-1.png);
-    animation: animarBackground-1 16s infinite;
-}
-.animacion-background-2{
-    height: 160px;
-    width: 100vw;
-    margin-bottom: 10px;
-    background-image: url(../multimedia/img/animacion-background-2.png);
-    animation: animarBackground-2 18s infinite;
-}
-.animacion-background-3{
-    height: 160px;
-    width: 100vw;
-    margin-bottom: 10px;
-    background-image: url(../multimedia/img/animacion-background-3.png);
-    animation: animarBackground-3 20s infinite;
-}
-@keyframes animarBackground-1{
-    0%{
+
+@keyframes animarBackground-1 {
+    0% {
         background-position: 0px;
     }
-    100%{
+
+    100% {
         background-position: -1860px;
     }
 }
-@keyframes animarBackground-2{
-    0%{
+
+@keyframes animarBackground-2 {
+    0% {
         background-position: 0px;
     }
-    100%{
+
+    100% {
         background-position: -1860px;
     }
 }
-@keyframes animarBackground-3{
-    0%{
+
+@keyframes animarBackground-3 {
+    0% {
         background-position: 0px;
     }
-    100%{
+
+    100% {
         background-position: -1860px;
     }
 }

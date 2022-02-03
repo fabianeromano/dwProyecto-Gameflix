@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.section-1 div h2, .section-2 article .section-2__title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.2); }
+
 .plan-basic {
   background: linear-gradient(45deg, #275ae5, #1d12b3);
   padding: 50px;
@@ -23,7 +29,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #dfd9d9; }
+  background-color: #dfd9d9;
+  font-family: "Roboto", sans-serif; }
 
 /* HEADER */
 /* Navbar */
@@ -33,7 +40,8 @@ nav div a img {
 
 /* Navbar */
 /* HEADER */
-.parallax {
+.section-1 .parallax-1 {
+  background-image: url(../multimedia/img/index-background1.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -42,40 +50,57 @@ nav div a img {
   max-width: 100vw;
   position: relative;
   overflow: hidden; }
+  .section-1 .parallax-1 .index-Texto-1 {
+    position: absolute;
+    text-align: center;
+    top: 40%; }
+    .section-1 .parallax-1 .index-Texto-1 .index-Title-1 {
+      font-size: 3rem;
+      text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.44);
+      color: white;
+      font-weight: 900; }
 
-.index-Texto-1 {
-  color: #fff;
-  position: absolute;
-  text-align: center;
-  top: 40%; }
-
-.img-uno {
-  background-image: url(../multimedia/img/juegosEnCirculo.jpg); }
-
-.animacion {
+.section-2 .parallax-2 {
+  background-image: url(../multimedia/img/index-background1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  max-width: 100vw;
+  position: relative;
   overflow: hidden; }
+  .section-2 .parallax-2 .index-Texto-2 {
+    position: absolute;
+    text-align: center;
+    top: 40%; }
+    .section-2 .parallax-2 .index-Texto-2 .index-Title-2 {
+      font-size: 3rem;
+      text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.44);
+      color: white;
+      font-weight: 900; }
 
-.animacion-background-1 {
-  height: 160px;
-  width: 100vw;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-image: url(../multimedia/img/animacion-background-1.png);
-  animation: animarBackground-1 16s infinite; }
-
-.animacion-background-2 {
-  height: 160px;
-  width: 100vw;
-  margin-bottom: 10px;
-  background-image: url(../multimedia/img/animacion-background-2.png);
-  animation: animarBackground-2 18s infinite; }
-
-.animacion-background-3 {
-  height: 160px;
-  width: 100vw;
-  margin-bottom: 10px;
-  background-image: url(../multimedia/img/animacion-background-3.png);
-  animation: animarBackground-3 20s infinite; }
+.section-1 div .animacion {
+  overflow: hidden; }
+  .section-1 div .animacion .animacion-background-1 {
+    height: 160px;
+    width: 100vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(../multimedia/img/animacion-background-1.png);
+    animation: animarBackground-1 16s infinite; }
+  .section-1 div .animacion .animacion-background-2 {
+    height: 160px;
+    width: 100vw;
+    margin-bottom: 10px;
+    background-image: url(../multimedia/img/animacion-background-2.png);
+    animation: animarBackground-2 18s infinite; }
+  .section-1 div .animacion .animacion-background-3 {
+    height: 160px;
+    width: 100vw;
+    margin-bottom: 10px;
+    background-image: url(../multimedia/img/animacion-background-3.png);
+    animation: animarBackground-3 20s infinite; }
 
 @keyframes animarBackground-1 {
   0% {
@@ -97,65 +122,58 @@ nav div a img {
 
 .suscripcion {
   padding: 2px 0; }
-
-.price-table {
-  text-align: center;
-  margin-bottom: 10px;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.2), 0 20px 50px rgba(0, 0, 0, 0.5);
-  border-radius: 20px; }
-
-.sus-table:hover {
-  transform: scale(1.03); }
-
-.price-table .price-head h4 {
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
-  color: #fff;
-  font-weight: 700; }
-
-.price-table .price-head h2 {
-  margin: 0;
-  padding: 20px 0 0;
-  font-size: 2rem;
-  color: #fff; }
-
-.price-content {
-  position: relative; }
+  .suscripcion h2 {
+    font-size: 2rem; }
+  .suscripcion div div div .sus-table .price-table {
+    text-align: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.2), 0 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 20px; }
+    .suscripcion div div div .sus-table .price-table .price-head h4 {
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      font-weight: 700; }
+    .suscripcion div div div .sus-table .price-table .price-head h2 {
+      margin: 0;
+      padding: 20px 0 0;
+      font-size: 2rem;
+      color: #fff; }
+    .suscripcion div div div .sus-table .price-table .price-head .price-content {
+      position: relative; }
+    .suscripcion div div div .sus-table .price-table .price-head .price-button {
+      padding: 0 0 30px; }
+      .suscripcion div div div .sus-table .price-table .price-head .price-button a {
+        padding: 10px 40px;
+        background: linear-gradient(45deg, #e52d27, #b31217);
+        color: #fff;
+        border-radius: 25px;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-decoration: none; }
+  .suscripcion div div div .sus-table:hover {
+    transform: scale(1.03); }
 
 .price-content ul {
   position: relative;
   margin: 0;
   padding: 20px 0; }
-
-.price-content ul li {
-  list-style: none;
-  font-size: 16px;
-  text-transform: uppercase;
-  padding: 10px 0;
-  color: #777;
-  cursor: pointer;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  transition: .5s; }
-
-.price-content ul li:hover {
-  border-left: 15px solid #9e02c5;
-  border-right: 15px solid #9e02c5; }
-
-.price-button {
-  padding: 0 0 30px; }
-
-.price-button a {
-  padding: 10px 40px;
-  background: linear-gradient(45deg, #e52d27, #b31217);
-  color: #fff;
-  border-radius: 25px;
-  font-size: 18px;
-  text-transform: uppercase;
-  text-decoration: none; }
+  .price-content ul li {
+    list-style: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: #777;
+    cursor: pointer;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    transition: .5s; }
+  .price-content ul li:hover {
+    border-left: 15px solid #9e02c5;
+    border-right: 15px solid #9e02c5; }
 
 .form-container {
   position: relative;
@@ -165,6 +183,63 @@ nav div a img {
   height: 100%;
   width: 100%;
   padding: 20px 100px; }
+  .form-container .form-box {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19); }
+    .form-container .form-box .left {
+      height: 100%;
+      background: url(../multimedia/img/backgroundJuegosFlotando.jpg) no-repeat center;
+      background-size: cover; }
+    .form-container .form-box .right {
+      padding: 25px 40px; }
+      .form-container .form-box .right .right__title {
+        position: relative;
+        padding-bottom: 10px;
+        margin-bottom: 10px; }
+      .form-container .form-box .right .right__title:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        height: 4px;
+        width: 50px;
+        border-radius: 2px;
+        background-color: #DB202C; }
+      .form-container .form-box .right .right__form .field {
+        width: 100%;
+        padding: 0.5rem 1rem;
+        outline: none;
+        border: 2px solid rgba(0, 0, 0, 0);
+        background-color: rgba(230, 230, 230, 0.6);
+        font-size: 1.1rem;
+        margin-bottom: 22px;
+        transition: .3s; }
+      .form-container .form-box .right .right__form .field:focus {
+        background-color: #fff;
+        border: 2px solid rgba(250, 30, 30, 0.47); }
+      .form-container .form-box .right .right__form .field:hover {
+        background-color: rgba(0, 0, 0, 0.1); }
+      .form-container .form-box .right .right__form .area {
+        min-height: 150px; }
+      .form-container .form-box .right .right__form .form-btn {
+        width: 100%;
+        padding: 0.5rem 1rem;
+        font-size: 1.1rem;
+        background-color: #DB202C;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        color: #fff;
+        transition: .3s; }
+      .form-container .form-box .right .right__form .form-btn:hover {
+        background-color: #9c240e; }
 
 .form-container:after {
   content: "";
@@ -178,74 +253,6 @@ nav div a img {
   z-index: -1;
   filter: blur(5px); }
 
-.form-box {
-  max-width: 850px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19); }
-
-.left {
-  height: 100%;
-  background: url(../multimedia/img/backgroundJuegosFlotando.jpg) no-repeat center;
-  background-size: cover; }
-
-.right {
-  padding: 25px 40px; }
-
-.right__title {
-  position: relative;
-  padding-bottom: 10px;
-  margin-bottom: 10px; }
-
-.right__title:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  height: 4px;
-  width: 50px;
-  border-radius: 2px;
-  background-color: #DB202C; }
-
-.field {
-  width: 100%;
-  padding: 0.5rem 1rem;
-  outline: none;
-  border: 2px solid rgba(0, 0, 0, 0);
-  background-color: rgba(230, 230, 230, 0.6);
-  font-size: 1.1rem;
-  margin-bottom: 22px;
-  transition: .3s; }
-
-.field:hover {
-  background-color: rgba(0, 0, 0, 0.1); }
-
-.field:focus {
-  background-color: #fff;
-  border: 2px solid rgba(250, 30, 30, 0.47); }
-
-.area {
-  min-height: 150px; }
-
-.form-btn {
-  width: 100%;
-  padding: 0.5rem 1rem;
-  font-size: 1.1rem;
-  background-color: #DB202C;
-  cursor: pointer;
-  outline: none;
-  border: none;
-  color: #fff;
-  transition: .3s; }
-
-.form-btn:hover {
-  background-color: #af1a24; }
-
 @media (max-width: 768px) {
   .form-container .form-box {
     grid-template-columns: 1fr; }
@@ -255,57 +262,46 @@ nav div a img {
 .footer-section {
   background: #151414;
   position: relative; }
-
-.footer-logo {
-  margin-bottom: 30px; }
-
-.footer-logo img {
-  max-width: 200px; }
-
-.footer-text p {
-  margin-bottom: 14px;
-  font-size: 14px;
-  color: #7e7e7e;
-  line-height: 28px; }
-
-.footer-social-icon span {
-  color: #fff;
-  display: block;
-  font-size: 20px;
-  font-weight: 700;
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 20px; }
-
-.footer-social-icon a {
-  color: #fff;
-  font-size: 10px;
-  margin-right: 15px; }
-
-.footer-social-icon .iconify {
-  height: 40px;
-  width: 40px;
-  text-align: center;
-  line-height: 38px;
-  border-radius: 50%; }
-
-.facebook-bg {
-  background: #3B5998; }
-
-.twitter-bg {
-  background: #55ACEE; }
-
-.instagram-bg {
-  background: #e7a10a; }
-
-.google-bg {
-  background: #DD4B39; }
-
-.footer-widget-heading h3 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 40px;
-  position: relative; }
+  .footer-section div .footer-content div div .footer-widget .footer-logo {
+    margin-bottom: 30px; }
+    .footer-section div .footer-content div div .footer-widget .footer-logo a img {
+      max-width: 200px; }
+  .footer-section div .footer-content div div .footer-widget .footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #7e7e7e;
+    line-height: 28px; }
+  .footer-section div .footer-content div div .footer-widget .footer-social-icon span {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px; }
+  .footer-section div .footer-content div div .footer-widget .footer-social-icon a {
+    color: #fff;
+    font-size: 10px;
+    margin-right: 15px; }
+  .footer-section div .footer-content div div .footer-widget .footer-social-icon .iconify {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%; }
+  .footer-section div .footer-content div div .footer-widget .footer-social-icon .facebook-bg {
+    background: #3B5998; }
+  .footer-section div .footer-content div div .footer-widget .footer-social-icon .twitter-bg {
+    background: #55ACEE; }
+  .footer-section div .footer-content div div .footer-widget .footer-social-icon .instagram-bg {
+    background: #e7a10a; }
+  .footer-section div .footer-content div div .footer-widget .footer-social-icon .google-bg {
+    background: #DD4B39; }
+  .footer-section div .footer-content div div div .footer-widget-heading h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative; }
 
 .footer-widget-heading h3::before {
   content: "";
@@ -380,14 +376,18 @@ nav div a img {
   border: 1px solid #f02a089c;
   color: whitesmoke; }
 
-/* INDEX - SECTION */
-.section-1 div .index-Texto-1 {
-  position: absolute;
-  top: 40%;
-  text-align: center; }
-  .section-1 div .index-Texto-1 .index-Title-1 {
-    color: #0D6EFD; }
+.price-button {
+  padding: 0 0 30px; }
+  .price-button a {
+    padding: 10px 40px;
+    background: linear-gradient(45deg, #e52d27, #b31217);
+    color: #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none; }
 
+/* INDEX - SECTION */
 .section-1 div {
   padding-top: 5px;
   padding-bottom: 5px; }
@@ -396,7 +396,8 @@ nav div a img {
     padding-top: 3px;
     padding-bottom: 3px; }
   .section-1 div p {
-    text-align: center; }
+    text-align: center;
+    font-size: 1.3rem; }
 
 .section-2 article .section-2__description {
   font-size: 20px; }
@@ -414,6 +415,10 @@ nav div a img {
       font-size: 70px; }
     .section-2 div div .section-2__name {
       font-size: 30px; }
+
+.section-2__disp:hover {
+  color: #DB202C;
+  transform: scale(1.03); }
 
 /* PAGE - JUEGOS */
 .juegos-banner {

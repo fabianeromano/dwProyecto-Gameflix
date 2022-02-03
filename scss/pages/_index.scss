@@ -1,16 +1,6 @@
 /* INDEX - SECTION */
 // SECTION - 1
 .section-1 {
-    div {
-        .index-Texto-1{
-	    position: absolute;
-	        top:40%;
-            text-align: center;
-            .index-Title-1 {
-                color: $colorTitle;        
-            }
-        }
-    }
     div{
         padding-top: 5px;
         padding-bottom: 5px;
@@ -18,9 +8,11 @@
             text-align: center;
             padding-top: 3px;
             padding-bottom: 3px;
+            @extend %estilosTitulos;
         }
         p{
             text-align: center;
+            font-size: 1.3rem;
 
         }
     }
@@ -28,6 +20,9 @@
 // SECTION - 2
 .section-2{
     article{
+        .section-2__title{
+            @extend %estilosTitulos;
+        }
         .section-2__description{
             font-size: 20px;
         }
@@ -50,4 +45,8 @@
             }
         }
     }
+}
+.section-2__disp:hover{
+    color: #DB202C;
+    transform: scale(1.03);
 }

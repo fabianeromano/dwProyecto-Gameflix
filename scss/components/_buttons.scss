@@ -15,3 +15,16 @@
     border: 1px solid #f02a089c;
     color: rgb(245, 245, 245);
   }
+// BOTON DE PRECIOS
+  .price-button {
+    padding: 0 0 30px;
+    a{
+      padding: 10px 40px;
+      background: linear-gradient(45deg, #e52d27, #b31217);
+      color: #fff;
+      border-radius: 25px;
+      font-size: 18px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
