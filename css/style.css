@@ -254,6 +254,10 @@ nav div a img {
   filter: blur(5px); }
 
 @media (max-width: 768px) {
+  .form-container{
+    padding-left: 0;
+    padding-right: 0;
+  }
   .form-container .form-box {
     grid-template-columns: 1fr; }
     .form-container .form-box .left {
